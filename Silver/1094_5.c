@@ -12,7 +12,6 @@ int main(void) {
 		if (input % 2 == 1) cnt++;
 		input = input / 2;
 		if (input <= 0) break;
-
 	}
 
 	printf("%d", cnt);
